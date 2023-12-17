@@ -1,0 +1,29 @@
+name: pytemplate
+channels
+- conda-forge
+dependencies:
+- python=3.10
+- jupyter
+- conda
+- mamba
+- ipython
+- ipykernel
+- numpy
+- matplotlib
+- pandas
+- pip
+- pre-commit
+- black
+- nbstripout
+- mypy
+- flake8
+- pycodestyle
+- pydocstyle
+- pytest
+- pytest-cov
+- pytest-xdist
+- pip:
+  - mkdocs
+  - mkdocs-material
+  - mkdocstrings
+  - mknotebooks

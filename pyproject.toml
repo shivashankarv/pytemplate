@@ -1,0 +1,5 @@
+[project]
+name = "mytemplate"
+version = "0.1.0"
+authors = [{name = "Varun Shivashankar", email = "varunshivashankardev@gmail.com"}]
+description = "Something cool here."
