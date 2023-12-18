@@ -10,7 +10,7 @@ mv pytemplate $PROJECTNAME
 sed -i 's/pytemplate/${PROJECTNAME}/g' environment.yml
 sed -i 's/pytemplate/${PROJECTNAME}/g' pyproject.toml
 
-conda env create -f environment.yml
+conda create -f environment.yml
 eval "$(conda shell.bash hook)"
 conda activate $PROJECTNAME
 pip install -e .
