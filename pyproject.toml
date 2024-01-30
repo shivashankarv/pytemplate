@@ -1,5 +1,5 @@
 [project]
-name = "pytemplate"
+name = "toynn"
 version = "0.1.0"
 authors = [{name = "Varun Shivashankar", email = "varunshivashankardev@gmail.com"}]
 description = "Something cool here."
